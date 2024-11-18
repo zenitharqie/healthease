@@ -77,7 +77,6 @@ class Call extends StatelessWidget {
 
             const SizedBox(height: 24),
 
-            // Hung-up button
             GestureDetector(
               onTap: () {
                 Navigator.pop(context); 

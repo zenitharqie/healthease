@@ -39,13 +39,11 @@ class _BookConsultationState extends State<BookConsultation> {
           IconButton(
             icon: const Icon(Icons.search, color: Colors.black),
             onPressed: () {
-              // Add search functionality here
             },
           ),
           IconButton(
             icon: Image.asset('assets/images/drawer.png'),
             onPressed: () {
-              // Add drawer functionality here
             },
           ),
         ],
@@ -103,13 +101,11 @@ class _BookConsultationState extends State<BookConsultation> {
                     IconButton(
                       icon: const Icon(Icons.phone, color: Colors.grey),
                       onPressed: () {
-                        // Add phone functionality here
                       },
                     ),
                     IconButton(
                       icon: const Icon(Icons.favorite_border, color: Colors.grey),
                       onPressed: () {
-                        // Add favorite functionality here
                       },
                     ),
                   ],

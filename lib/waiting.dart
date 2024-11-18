@@ -1,18 +1,14 @@
-import 'dart:math'; // Import for random number generation
+import 'dart:math'; 
 import 'package:flutter/material.dart';
 
 class Waiting extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // Simulate a delay and random outcome
     Future.delayed(Duration(seconds: 5), () {
-      // Randomly trigger an error or proceed normally
-      bool isError = Random().nextBool(); // 50% chance of error
+      bool isError = Random().nextBool(); 
       if (isError) {
-        // Navigate to error screen
-        Navigator.pushReplacementNamed(context, '/error'); // Ensure '/error' route is registered
+        Navigator.pushReplacementNamed(context, '/error'); 
       } else {
-        // Navigate to location screen
         Navigator.pushReplacementNamed(context, '/location');
       }
     });

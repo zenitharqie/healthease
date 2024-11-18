@@ -12,7 +12,6 @@ class Login extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // Title
               const Text(
                 'Log in',
                 style: TextStyle(
@@ -22,7 +21,6 @@ class Login extends StatelessWidget {
               ),
               const SizedBox(height: 150),
 
-              // Username Field
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -40,10 +38,10 @@ class Login extends StatelessWidget {
                       prefixIcon: const Icon(Icons.person_outline),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10.0),
-                        borderSide: BorderSide.none, // Removed any border
+                        borderSide: BorderSide.none,
                       ),
                       filled: true,
-                      fillColor: Colors.grey[200],  // Set background color to light grey
+                      fillColor: Colors.grey[200],  
                       contentPadding: const EdgeInsets.symmetric(
                           horizontal: 20.0, vertical: 18.0),
                     ),
@@ -52,7 +50,6 @@ class Login extends StatelessWidget {
               ),
               const SizedBox(height: 20),
 
-              // Password Field
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -74,7 +71,7 @@ class Login extends StatelessWidget {
                         borderSide: BorderSide.none, // Removed any border
                       ),
                       filled: true,
-                      fillColor: Colors.grey[200],  // Set background color to light grey
+                      fillColor: Colors.grey[200],  
                       contentPadding: const EdgeInsets.symmetric(
                           horizontal: 20.0, vertical: 18.0),
                     ),

@@ -48,7 +48,7 @@ class Store extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SizedBox(height: 20), // Space between navbar and content
+              SizedBox(height: 20), 
               Text(
                 'Shop by Categories',
                 style: TextStyle(
